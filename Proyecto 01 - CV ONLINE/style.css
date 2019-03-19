@@ -1,0 +1,103 @@
+body {
+    background-color: dodgerblue;  
+    margin: 0%;
+
+
+}
+h1 {
+    text-align: center;
+}
+.listLanguages {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .languages {
+    float: left;
+
+
+  }
+  
+  .languages a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .sections {
+    margin-top: 5%;
+    clear: both;
+    float: right;
+    width: 60%;
+    margin-right: 5%;
+    
+}
+.profile {
+    margin-top: 5%;
+    clear: both;
+    float: left;
+    position: fixed;
+    contain: content;
+    width: 30%;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+.photo {
+    width: 100%;
+    border-radius: 50% 
+}
+.icon {
+  width: 30%;
+
+}
+
+.academic {
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 20px; 
+ 
+}
+
+.conocimientos {
+  background-color: #fff;
+  width: auto;
+  height: auto;
+  margin: 0 auto 15px auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+
+}
+.portfolio {
+  background-color: #fff;
+  width: auto;
+  height: auto;
+  margin: 0 auto 15px auto;
+  padding: 5px;
+  border: 1px solid #ccc;
+  
+  -moz-border-radius: 11px;
+  -webkit-border-radius: 11px;
+  border-radius: 11px;
+  behavior: url(border-radius.htc);
+}
+
+
+.footer {
+    background-color: black;
+    color: rgb(0, 162, 255);
+    clear: both;
+    text-align: center;
+
+}
